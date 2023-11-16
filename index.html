@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIT BASICS</title>
+  </head>
+  <body>
+    <h1>
+      GIT CHEAT SHEET
+      <h2>Git Basics</h2>
+      <hr />
+      <code>git init &lt;directory&gt;</code>
+      <p>
+        Create empty Git repo in specified directory. Run with no arguments to
+        initialize the current directory as a git repository.
+      </p>
+      <code>
+        git clone &lt;repo&gt;
+      </code>
+      <p>
+        Clone repo located at repo onto local machine. Original repo can be
+        located on the local filesystem or on a remote machine via HTTP or SSH.
+      </p>
+      <code>git config user.name&lt;name&gt;</code>
+      <p>
+        Define author name to be used for all commits in current repo. Devs
+        commonly use ---global flag to set config options for current user.
+      </p>
+      <code>git add &lt;directory&gt;</code>
+      <p>
+        Stage all changes in &lt;directory&gt; for the next commit. Replace &lt;directory&gt;
+        with a &lt;file&gt; to change a specific file.
+      </p>
+<code>git commit &lt;message&gt;</code>
+<p>Commit the staged snapshop, but instead of launching a text editor, use &lt;message&gt; as the commit message.</p>
+<code>git status</code>
+<p>List which files are staged, unstaged, and untracked.</p>
+<code>git log</code>
+<p>Display the entire commit history using the default format. For customization see additional options.</p>
+<code>git diff</code>
+<p>Show unstaged changes between your index and working directory</p>
+    </h1>
+  </body>
+</html>
